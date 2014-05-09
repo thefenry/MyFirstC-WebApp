@@ -7,9 +7,14 @@
     <title>My first C# site</title>
 </head>
 <body>
+    
     <form id="form1" runat="server">
     <div>
         Hello world!
+        <asp:TextBox ID="TextBoxName" runat="server" TextMode="MultiLine"></asp:TextBox><br />
+        <asp:Button ID="ButtonDisplay" runat="server" Text="Display" 
+            onclick="ButtonDisplay_Click" /><br />
+        <asp:Label ID="LabelMessage" runat="server" Text=""></asp:Label><br />
     </div>
     </form>
 </body>
