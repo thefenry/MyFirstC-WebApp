@@ -10,7 +10,7 @@
 <body>
     
     <form id="form1" runat="server">
-    <div class=mainDiv>
+    <div class = "mainDiv">
         <p>Hello world!</p>
         <asp:TextBox ID="TextBoxName" runat="server" TextMode="MultiLine"></asp:TextBox><br />
         <asp:Button ID="ButtonDisplay" runat="server" Text="Display" 
