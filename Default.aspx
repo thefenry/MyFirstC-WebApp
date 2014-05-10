@@ -4,12 +4,13 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
+    <link href="webappStyleSheet.css" rel="stylesheet" type="text/css" />
     <title>My first C# site</title>
 </head>
 <body>
     
     <form id="form1" runat="server">
-    <div>
+    <div class=mainDiv>
         <p>Hello world!</p>
         <asp:TextBox ID="TextBoxName" runat="server" TextMode="MultiLine"></asp:TextBox><br />
         <asp:Button ID="ButtonDisplay" runat="server" Text="Display" 
